@@ -1,7 +1,7 @@
 # Git archive
 A simple bash script which batch "archives" a list of branches in your repository.
 Given a list of branches, it tags them, prepending `archive/` to their original name, and then deletes the branches.
-This ensures your `git branch` output is clean, without loosing the work in those branches.
+This ensures your `git branch` output is clean, without losing the work in those branches.
 
 
 ## Instructions
