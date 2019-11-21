@@ -7,7 +7,7 @@ This ensures your `git branch` output is clean, without loosing the work in thos
 ## Instructions
 1. Place the script in your repository,
 1. Put the list of branches to be archived into a file, say `listofbranches.txt`,
-1. Run the script with your file as the argument: `/archivescript.sh listofbranches.txt` (if the script doesn't work, run `chmod 755 archive.sh` to change its permissions).
+1. Run the script with your file as the argument: `./archivescript.sh listofbranches.txt` (if the script doesn't work, run `chmod 755 archive.sh` to change its permissions).
 
 That's it, your branches are now "archived".
 
