@@ -15,6 +15,7 @@ That's it, your branches are now "archived".
 ## How do I access/resurect my archived branches?
 
 Branches are converted to tags with `archive/` prepended.
-Given an archived branch `mybranch` you can either check it out running `git checkout archive/mybranch` (which will put you in the "detached HEAD" state).
+To see a list of archived branches run `git tag --list *archive/*` (this lists all tags containing the word `archive/`).
+Given an archived branch `mybranch` you can either check it out running `git checkout archive/mybranch` (this will put you in the "detached HEAD" state).
 If you would like to "dearchive" the branch, run `git checkout -b mybranch archive/mybranch`.
 Come to think of it, I should probably write a script for that too.
